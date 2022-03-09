@@ -1,7 +1,8 @@
 library(tidyverse)
+library(ggplot2)
+library(plotly)
 library(dash)
 library(dashHtmlComponents)
-library(dashCoreComponents)
 
 olympic <- readr::read_csv(here::here('data', 'olympic_after_2000.csv'))
 
