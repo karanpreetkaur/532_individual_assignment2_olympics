@@ -1,14 +1,3 @@
-# How to deploy a Dash-R app to Heroku
+532_individual_assignment2_olympics
 
-This repo contains the necessary files for deploying a Dash-R app to Heroku.
-The deployed app is hosted here https://dashr-heroku-deployment-demo.herokuapp.com/.
-
-Steps to reproduce:
-
-1. `git clone git@github.com:UBC-MDS/dashr-heroku-deployment-demo.git`
-2. `cd dashr-heroku-deployment-demo`
-3. `heroku create --stack container your-heroku-site`
-4. `git push heroku main`
-5. Wait ~15 min for the build to finish.
-6. `heroku ps:scale web=1`
-7. Navigate to `https://you-heroku-site.herokuapp.com` in your browser
+The dataset used in the app is from https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results and have only been for filter for years > 2000 to compare the medals won by Men and Women during olympics each year.
